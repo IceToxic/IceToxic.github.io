@@ -1,0 +1,138 @@
+*{
+    padding :0;
+    margin  :0;
+}
+
+.logo{
+    position: relative ;
+    width: auto;    
+    height: auto;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-color:rgba(215,245,255,1);
+    overflow: hidden;
+}
+
+.logo a{
+    color: #7299BA;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 3vw;
+    font-family: 'Segoe UI';
+    font-style: bold;
+}
+
+.logo a:hover{
+    background-color: #004080;
+    color: white;
+}
+
+.logo img{
+    max-width: 30vh;
+}
+
+body{
+    background-image: url(../asset/Back.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Container{
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    display: block;
+}
+
+.Boxed_Contenct{
+    background-color:rgba(215,245,255,1);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 40px;
+    width: 50vw;
+    display: flex;
+    border-radius: 20px 20px;
+    height: auto;
+    box-shadow: 5px 5px 20px;
+}
+
+.Text_D{
+    font-size: 2vw;
+    text-align: justify;
+    padding: 10px 10px 10px;
+}
+
+.Text_h{
+    font-size: 2vw;
+    line-height: 2em;
+}
+    
+.Text_1{
+    background-color: white;
+    height: auto;
+    border-radius: 10px 10px;
+    padding: 5px 5px 5px; 
+    line-height: 1.9em;
+}
+
+.Text_1 a{
+    color: black;
+}
+
+.Boxed_Contenct img{
+    max-width: 30vh;
+    min-width: 30vh;
+    height: 34vh;
+    margin-top: 3vh;
+    padding: 10px;
+}
+
+.PemberiNomer{
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 2%;
+    box-shadow: 5px 5px 20px;
+}
+
+.PemberiNomer a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.PemberiNomer a.active {
+    background-color: blue;
+    color: white;
+  }
+
+  footer{
+    background-color: #183E69;
+    width: auto;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer table{
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer td{
+    font-size: 3vh;
+}
+
+footer tr{
+    width: 12vh;
+}
+
+footer a{
+    color: white;
+}

@@ -1,0 +1,154 @@
+*{
+    padding :0;
+    margin  :0;
+}
+
+.logo{
+    position: relative ;
+    width: auto;    
+    height: auto;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-color:rgba(215,245,255,1);
+    overflow: hidden;
+}
+
+.logo a{
+    color: #7299BA;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 3vw;
+    font-family: 'Segoe UI';
+    font-style: bold;
+}
+
+.logo a:hover{
+    background-color: #004080;
+    color: white;
+}
+
+.logo img{
+    max-width: 30vh;
+}
+
+body{
+    background-image: url(../asset/Back.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.UpFront img{
+    max-width: 270px;
+    padding-top:5vh;
+    border-radius: 10px 10px;
+}
+
+.UpFront p{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: white;
+    padding-right: 5px;
+    height: 20vh;
+    border-radius: 10px 10px;
+    padding: 5px;
+    width: 30vw;
+    box-shadow: 10px 10px 10px;
+    font-size: 3vh;
+    font-family:'Segoe UI';
+}
+
+.Container{
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    display: block;
+}
+
+.Boxed_Contenct{
+    background-color:rgba(215,245,255,1);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 40px;
+    width: 90vh;
+    display: flex;
+    border-radius: 20px 20px;
+    height: 32vh;
+    box-shadow: 5px 5px 20px;
+}
+
+.Text_D{
+    font-size: 0.9vw;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.Text_h{
+    line-height: 2.5em;
+    font-size: 1.5vw;
+}
+    
+.Text_1{
+    background-color: white;
+    padding-right: 5px;
+    height: 20vh;
+    border-radius: 10px 10px;
+    padding: 5px;
+    width: 30vw;
+    line-height: 1.6em;
+}
+
+.Text_1 a{
+    color: black;
+}
+
+.Text_2{
+    background-color: white;
+    padding-right: 5px;
+    height: 20vh;
+    border-radius: 10px 10px;
+    padding: 5px 5px;
+    width: 30vw;
+    line-height: 3em;
+}
+
+.Boxed_Contenct img{
+    max-width: 20vh;
+    min-width: 20vh;
+    height: 24vh;
+    margin-top: 3vh;
+    padding: 10px;
+}
+
+
+
+  footer{
+    background-color: #183E69;
+    width: auto;
+    height: auto;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer table{
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer td{
+    font-size: 3vh;
+}
+
+footer tr{
+    width: 12vh;
+}
+
+footer a{
+    color: white;
+}
