@@ -87,7 +87,7 @@ body{
 
 .PemberiNomer{
     display: inline-block;
-    margin-left: 50%;
+    margin-left: 68%;
     margin-top: 2%;
     box-shadow: 5px 5px 20px;
 }
@@ -104,9 +104,13 @@ body{
     background-color: blue;
     color: white;
     border: 1px solid #ddd;
-  }
+}
 
-  footer{
+.videomateri{
+    align-items: center;
+    padding-top: 50px;
+}
+footer{
     background-color: #183E69;
     width: auto;
     height: auto;
