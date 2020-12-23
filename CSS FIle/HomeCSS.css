@@ -57,6 +57,13 @@ body{
     box-shadow: 5px 5px 20px;
 }
 
+.Konten_scroll{
+    overflow: auto;
+    width: 130vh;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+}
 .Text_D{
     font-size: 1.5vw;
     text-align: justify;
