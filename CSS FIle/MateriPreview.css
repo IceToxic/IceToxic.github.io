@@ -50,7 +50,6 @@ body{
     text-align: center;
     margin-top: 40px;
     width: 65vw;
-    display: flex;
     border-radius: 20px 20px;
     height: auto;
     box-shadow: 5px 5px 20px;
@@ -62,7 +61,7 @@ body{
     padding: 0px 20px 20px;
 }
 
-.Text_h{
+#Text_h{
     line-height: 2.5em;
 }
     
@@ -75,7 +74,6 @@ body{
     line-height: 1.9em;
     
 }
-
 
 .Boxed_Contenct img{
     max-width: 30vh;
@@ -109,6 +107,7 @@ body{
 .videomateri{
     align-items: center;
     padding-top: 50px;
+    display:absolute;
 }
 footer{
     background-color: #183E69;
@@ -142,9 +141,7 @@ footer a{
 @media screen and (max-width:1200px){
     .Boxed_Contenct{
         width: 90vh;
-        display: flex;
         border-radius: 20px 20px;
-        height: 45vh;
         box-shadow: 5px 5px 20px;       
     }
     .Text_1{
@@ -152,22 +149,24 @@ footer a{
         height: 30vh;
         border-radius: 10px 10px;
         padding: 5px;
-        
+    }
+    .videomateri{
+        width: 20px;
     }
 }
 @media screen and (max-width: 960px){
     .Boxed_Contenct{
         width: 80vh;
-        display: flex;
         border-radius: 20px 20px;
-        height: 35vh;
         box-shadow: 5px 5px 20px;
     }
     .Text_1{
         padding-right: 5px;
-        height: 20vh;
         border-radius: 10px 10px;
         padding: 5px;
-        overflow: hidden;
+        height: 500px;
+    }
+    .videomateri{
+        width: 10px;
     }
 }
