@@ -138,6 +138,10 @@ footer a{
   color: white;
 }
 
+.Kalkulator{
+    padding: 30px;
+}
+
 @media screen and (max-width:1200px){
     .Boxed_Contenct{
         width: 90vh;
