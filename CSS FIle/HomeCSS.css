@@ -136,6 +136,7 @@ footer tr{
 footer a{
     color: white;
 }
+
 @media screen and (max-width:1200px){
     .Boxed_Contenct{
         width: 90vh;
